@@ -23,8 +23,7 @@
             "repo": "https://github.com/samyulam2016/tdex-node-api.git",
             "path": "/application/data/auto",
             "ssh_options": "StrictHostKeyChecking=no",
-            "pre-deploy": "git pull" # 部署前执行
-            "post-deploy": "npm install &&  pm2 reload deploy.json --env production" # 部署后执行
+            "post-deploy" : "npm install; grunt dist", //部署后执行
             "env": {
                 "NODE_ENV": "production"
             }
