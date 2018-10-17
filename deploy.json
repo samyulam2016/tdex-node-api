@@ -23,10 +23,10 @@
             "repo": "https://github.com/samyulam2016/tdex-node-api.git",
             "path": "/application/data/auto",
             "ssh_options": "StrictHostKeyChecking=no",
-            //"post-deploy" : "npm install; pm2 restart ./index.js", //部署后执行
             "env": {
                 "NODE_ENV": "production"
             }
         }
     }
 }
+
