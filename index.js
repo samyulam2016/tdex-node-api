@@ -3,10 +3,10 @@ const Tdex = require('./util/apis')
 
 
 
-var tdex = new Tdex({
-	apiKey: '7AGFdayY1ePgJbCDsa1gVivym9UhUSG3oazY3fwAy1dpX5UxsmHa7EzuQVy1XzoJ',
-	apiSecret: '7AGFdbCfPWCB2wh4W2Ln5roMRhnhQVvMvWCsNFpEnc4MLyE28TZX38v92uZ48NXf',
-})
+// var tdex = new Tdex({
+// 	apiKey: '7AGFdayY1ePgJbCDsa1gVivym9UhUSG3oazY3fwAy1dpX5UxsmHa7EzuQVy1XzoJ',
+// 	apiSecret: '7AGFdbCfPWCB2wh4W2Ln5roMRhnhQVvMvWCsNFpEnc4MLyE28TZX38v92uZ48NXf',
+// })
 
 //var config = {
 //	cid: 1,
@@ -18,13 +18,13 @@ var tdex = new Tdex({
 
 
 
-var config = {"currency":1,"direction":2,"amount":1}
+// var config = {"currency":1,"direction":2,"amount":1}
 
 
-tdex.walletSwitch(config ,res => {
-	console.log(JSON.stringify(res))
-})
+// tdex.walletSwitch(config ,res => {
+// 	console.log(JSON.stringify(res))
+// })
 
 
 
-//module.exports = Tdex
+module.exports = Tdex
