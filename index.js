@@ -18,7 +18,7 @@ const Tdex = require('./util/apis')
 
 
 
-var config = {"currency":1,"direction":2,"amount":1}
+// var config = {"currency":1,"direction":2,"amount":1}
 
 
 // tdex.walletSwitch(config ,res => {
