@@ -1,12 +1,12 @@
 {
-  "name": "tdex-api",
+  "name": "{{name}}",
   "version": "1.0.9",
-  "description": "tdex-tools",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lam",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "crypto": "^1.0.1"
